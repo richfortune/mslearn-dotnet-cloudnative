@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Products.Data;
 
+//prova
 public class ProductDataContext : DbContext
 {
     public ProductDataContext (DbContextOptions<ProductDataContext> options)
